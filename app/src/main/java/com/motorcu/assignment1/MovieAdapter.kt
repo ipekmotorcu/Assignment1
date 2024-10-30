@@ -1,6 +1,6 @@
 package com.motorcu.assignment1
 
-// MovieAdapter.kt
+
 import android.content.Intent
 import android.view.LayoutInflater
 import android.view.ViewGroup
