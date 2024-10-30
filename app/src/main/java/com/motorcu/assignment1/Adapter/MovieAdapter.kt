@@ -1,10 +1,12 @@
-package com.motorcu.assignment1
+package com.motorcu.assignment1.Adapter
 
 
 import android.content.Intent
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
+import com.motorcu.assignment1.DetailActivity
+import com.motorcu.assignment1.Model.Movie
 import com.motorcu.assignment1.databinding.ItemLayoutBinding
 
 class MovieAdapter(private val movies: List<Movie>) : RecyclerView.Adapter<MovieAdapter.MovieViewHolder>() {

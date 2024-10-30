@@ -1,15 +1,13 @@
 package com.motorcu.assignment1
 
 import android.os.Bundle
-import android.widget.TextView
-import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
 import com.motorcu.assignment1.databinding.ActivityMainBinding
 
 
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.motorcu.assignment1.Adapter.MovieAdapter
+import com.motorcu.assignment1.Data.DataSource
 
 class MainActivity : AppCompatActivity() {
 
@@ -20,7 +18,7 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        val movies=DataSource(this).loadMovies()
+        val movies= DataSource(this).loadMovies()
 
         val adapter = MovieAdapter(movies)
         binding.recycleview1.layoutManager = LinearLayoutManager(this)

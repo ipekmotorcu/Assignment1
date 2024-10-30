@@ -1,4 +1,4 @@
-package com.motorcu.assignment1
+package com.motorcu.assignment1.Model
 
 data class Movie (val title: String, val genre: String, val releaseDate: String,
              val director: String,

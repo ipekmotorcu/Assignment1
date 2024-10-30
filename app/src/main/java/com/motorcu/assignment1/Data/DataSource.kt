@@ -1,6 +1,8 @@
-package com.motorcu.assignment1
+package com.motorcu.assignment1.Data
 
 import android.content.Context
+import com.motorcu.assignment1.Model.Movie
+import com.motorcu.assignment1.R
 
 class DataSource(val context: Context) {
     fun getMovieTitlesList(): Array<String>{
