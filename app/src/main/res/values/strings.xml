@@ -1,0 +1,119 @@
+<resources>
+    <string name="app_name">Assignment1</string>
+
+
+        <!-- Titles -->
+        <string-array name="movie_titles">
+            <item>Inception</item>
+            <item>Interstellar</item>
+            <item>The Dark Knight</item>
+            <item>Fight Club</item>
+            <item>Forrest Gump</item>
+            <item>The Shawshank Redemption</item>
+            <item>The Matrix</item>
+            <item>The Godfather</item>
+            <item>Gladiator</item>
+            <item>Jurassic Park</item>
+            <item>The Lord of the Rings: The Fellowship of the Ring</item>
+            <item>Star Wars: A New Hope</item>
+            <item>Pulp Fiction</item>
+            <item>Avatar</item>
+            <item>Titanic</item>
+        </string-array>
+
+        <!-- Genres -->
+        <string-array name="movie_genres">
+            <item>Science Fiction</item>
+            <item>Science Fiction</item>
+            <item>Action</item>
+            <item>Drama</item>
+            <item>Drama</item>
+            <item>Drama</item>
+            <item>Science Fiction</item>
+            <item>Crime</item>
+            <item>Action</item>
+            <item>Adventure</item>
+            <item>Fantasy</item>
+            <item>Science Fiction</item>
+            <item>Crime</item>
+            <item>Science Fiction</item>
+            <item>Drama</item>
+        </string-array>
+
+        <!-- Release Dates -->
+        <string-array name="movie_release_dates">
+            <item>2010-07-16</item>
+            <item>2014-11-07</item>
+            <item>2008-07-18</item>
+            <item>1999-10-15</item>
+            <item>1994-07-06</item>
+            <item>1994-09-23</item>
+            <item>1999-03-31</item>
+            <item>1972-03-24</item>
+            <item>2000-05-05</item>
+            <item>1993-06-11</item>
+            <item>2001-12-19</item>
+            <item>1977-05-25</item>
+            <item>1994-10-14</item>
+            <item>2009-12-18</item>
+            <item>1997-12-19</item>
+        </string-array>
+
+        <!-- Directors -->
+        <string-array name="movie_directors">
+            <item>Christopher Nolan</item>
+            <item>Christopher Nolan</item>
+            <item>Christopher Nolan</item>
+            <item>David Fincher</item>
+            <item>Robert Zemeckis</item>
+            <item>Frank Darabont</item>
+            <item>Lana Wachowski, Lilly Wachowski</item>
+            <item>Francis Ford Coppola</item>
+            <item>Ridley Scott</item>
+            <item>Steven Spielberg</item>
+            <item>Peter Jackson</item>
+            <item>George Lucas</item>
+            <item>Quentin Tarantino</item>
+            <item>James Cameron</item>
+            <item>James Cameron</item>
+        </string-array>
+
+        <!-- Ratings -->
+        <string-array name="movie_ratings">
+            <item>8.8</item>
+            <item>8.6</item>
+            <item>9.0</item>
+            <item>8.8</item>
+            <item>8.8</item>
+            <item>9.3</item>
+            <item>8.7</item>
+            <item>9.2</item>
+            <item>8.5</item>
+            <item>8.1</item>
+            <item>8.8</item>
+            <item>8.6</item>
+            <item>8.9</item>
+            <item>7.8</item>
+            <item>7.8</item>
+        </string-array>
+
+    <string-array name="movie_posters">
+        <item>poster_inception</item>
+        <item>interstellar_poster</item>
+        <item>dark_night_poster</item>
+        <item>fight_club_poster</item>
+        <item>forrest_gump_poster</item>
+        <item>shawshank_poster</item>
+        <item>matrix_poster</item>
+        <item>godfather_poster</item>
+        <item>gladiator_poster</item>
+        <item>jurassic_park_poster</item>
+        <item>lotr_poster</item>
+        <item>starwars_poster</item>
+        <item>pulp_fiction_poster</item>
+        <item>avatar_poster</item>
+        <item>titanic_poster</item>
+    </string-array>
+
+
+</resources>
